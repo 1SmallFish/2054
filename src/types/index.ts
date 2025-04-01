@@ -1,3 +1,5 @@
+import { Schedule } from "./schedule";
+
 export enum SubjectType {
   MAIN = 'MAIN',
   MINOR = 'MINOR',
@@ -35,6 +37,7 @@ export interface Class {
   id: string;
   name: string;
   grade: number;
+  schedule: Schedule | null;
 }
 
 export interface Subject {

@@ -8,7 +8,7 @@ export interface ScheduleCell {
 }
 export interface Schedule {
     cells: ScheduleCell[];
-    class: Class;
+    classId: Class["id"];
     weekNumber: number;
     fitness?: number;
 }

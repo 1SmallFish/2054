@@ -65,7 +65,7 @@ export class ScheduleGenerator {
   private createRandomSchedule(): Schedule {
     return {
       cells: [],
-      class: this.classes[0],
+      classId: this.classes[0].id,
       weekNumber: 1,
       fitness: 0
     };

@@ -22,5 +22,6 @@ export declare class ScheduleGenerator {
     private selectParent;
     private crossover;
     private mutate;
+    private calculateFitness;
     private getBestSchedule;
 }
